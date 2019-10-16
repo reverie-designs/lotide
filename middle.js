@@ -40,24 +40,22 @@ Finds the middle of an array
 
 const middle = function(array) {
   let result = [];
-  let oddMid;
-  let evenMid1;
-  let evenMid2;
+  let middle = Math.floor((array.length - 1) / 2);
   if (array.length > 2) { //longer than two elements
     if (array.length % 2 !== 0) { //is odd
-      oddMid = Math.floor((array.length - 1) / 2);
-      result.push(array[oddMid]);
+      // console.log(middle);
+      result.push(array[middle]);
     } else {
       evenMid1 = Math.floor((array.length - 1) / 2);
-      evenMid2 = evenMid1 + 1;
-      result.push(array[evenMid1]);
-      result.push(array[evenMid2]);
+      // console.log(middle);
+      result.push(array[middle]);
+      result.push(array[middle + 1]);
     }
   }
   console.log(result);
   return result;
 };
 
-//middle([1,2,9,8,7]); //9
+//middle([1,2,9,8,7,9,10,11,12]); //7
 //middle([1, 2, 3, 4, 5, 6]); //[3,4]
 assertArrayEqual(middle([1, 2, 3, 4, 5, 6]), [3, 4]);
