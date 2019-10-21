@@ -26,18 +26,18 @@ const eqObjects = function(object1, object2) {
     //console.log('Keys of obj1 ====== ' ,obj1Keys);
     
     //console.log('length 1: ' + obj1Length + 'length 2: ' + obj2Length);
-    // checks the objects have the same amount of keys if not return false and exit
+    // ==checks the objects have the same amount of keys if not return false and exit
     if (obj1Keys.length !== obj2Keys.length) {
       return false;
     }
-    for (let x = 0; x < obj1Keys.length; x++) { // loops through the keys in obj1
-      for (let i = 0; i < obj2Keys.length; i++) { //loops through the keys in obj2
-        if (obj1Keys[x] === obj2Keys[i]) { // match keys in both objects
+    for (let x = 0; x < obj1Keys.length; x++) { // ==loops through the keys in obj1
+      for (let i = 0; i < obj2Keys.length; i++) { //==loops through the keys in obj2
+        if (obj1Keys[x] === obj2Keys[i]) { // ==match keys in both objects
           //console.log('This is the keys of Second object: ' + obj2Keys[i]);
           //console.log('This is the keys of First object: ' + obj1Keys[x]);
-          result = true; //assign value of true to result
+          result = true; // ==assign value of true to result
         } else {
-          result = false; // if the key values don't match return false
+          result = false; // ==if the key values don't match return false
         }
       }
     }
@@ -55,5 +55,5 @@ eqObjects(ab, ba); // => true
 const abc = { a: "1", b: "2", c: "3" };
 eqObjects(ab, abc); // => false
 
-assertEqual(eqObjects(ab, ba), true);// pass
-assertEqual(eqObjects(ab, abc), false);// fail
+assertEqual(eqObjects(ab, ba), true);
+assertEqual(eqObjects(ab, abc), false);
