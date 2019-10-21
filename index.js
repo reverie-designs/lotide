@@ -17,16 +17,16 @@ const without = require('./without');
 
 
 module.exports = {
-  head:   head,
-  tail:   tail,
-  middle: middle,
-  flatten: flatten,
-  letterPositions: letterPositions,
-  map: map,
-  countLetters: countLetters,
-  countOnly: countOnly,
-  findKey: findKey,
-  findKeyByValue: findKeyByValue,
-  takeUntil: takeUntil,
-  without: without
+  head,
+  tail,
+  middle,
+  flatten,
+  letterPositions,
+  map,
+  countLetters,
+  countOnly,
+  findKey,
+  findKeyByValue,
+  takeUntil,
+  without
 };
