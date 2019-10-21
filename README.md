@@ -38,3 +38,5 @@ The following functions are currently implemented:
 * `findKeyByValue(array)`: function that takes in an object and a value and returns the key of that value
 * `takeUntil(array, callback)`: function that takes in an array and a call back function and slices and return a new array at the point when call back function returns true
 * `without(array, value to remove)`: function that removes a single value from an array according to a specified parametere
+* `eqArrays(array1, array2`: function that takes in two arrays and compares the elements of those arrays - if they are the same return true otherwise false
+* `eqObjects(object1, object2`): function that takes in two objects and returns true if both objects have identical keys with identical values.
