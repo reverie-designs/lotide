@@ -1,11 +1,4 @@
 
-/*=============================================
-FUNCTION = takeUntil
-takes in an array and a function 
-slices and return a new array at the point when call 
-back function returns true
-===============================================*/
-
 const takeUntil = function(array, callback) {
   let newArray =[];
   for (item of array) {

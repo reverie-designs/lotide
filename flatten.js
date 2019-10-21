@@ -3,7 +3,6 @@ const flatten = function(array){
   let result = [];
   for (element of array){
     if(Array.isArray(element)) {
-      //console.log('this is an array' + element);
       for(word of element) {
         result.push(word);
       }

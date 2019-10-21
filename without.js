@@ -1,5 +1,4 @@
 
-//Function that removes a single value from an array according to a specified parameter
 let without = function (input, subtract) {
   let array = input;
   let quest;
@@ -13,7 +12,7 @@ let without = function (input, subtract) {
   const filtered = array.filter(function(value) {
     return value !== quest;
   });
-  console.log(filtered);
+  return filtered;
 };
 
 module.exports = without;

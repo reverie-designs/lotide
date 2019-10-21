@@ -1,13 +1,4 @@
-/*==========================================================
-FUNCTION = assertEqual
-a function that compares actual value to expected value and returns a pass or fail message
-===========================================================*/
 
-
-/*  
-      allItems = an array of strings that we need to look through
-      itemsToCount = an object specifying what to count
-*/
 const countOnly = function(allItems, itemsToCount) {
   const results={};
   for (const item of allItems){ //loops through firstNames array
