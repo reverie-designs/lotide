@@ -1,5 +1,5 @@
 {
-  "name": "@reverie-designs/lotide",
+  "name": "@dfrumovitch/lotide",
   "version": "1.0.0",
   "description": "A mini clone of the [Lodash](https://lodash.com) library.",
   "main": "index.js",
@@ -13,7 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/reverie-designs/lotide.git"
   },
-  "author": "Dasha Frumovitch - @reverie-designs",
+  "author": "Dasha Frumovitch - @reverie-designs - @dfrumovitch",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/reverie-designs/lotide/issues"
