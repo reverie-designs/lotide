@@ -19,15 +19,3 @@ const letterPositions = function(sentence) {
 };
 
 module.exports = letterPositions;
-//do we need to another object for repeated letters?
-//do we need to covert number to string to allow for multiple results?
-
-// let words = "lighthouse in the house";
-// //console.log('length of words: ' + (words.length - 1));
-// //letterPositions(words);
-// let result = letterPositions('hello');
-// console.log(result);
-// assertArrayEqual(letterPositions('hello')['e'], [1]);
-// result = letterPositions(words);
-// console.log(result);
-// assertArrayEqual(letterPositions(words)['h'], [3, 5, 15, 18]);
